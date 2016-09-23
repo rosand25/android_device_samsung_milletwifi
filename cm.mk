@@ -16,9 +16,9 @@
 $(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/matissewifi/full_matissewifi.mk)
+$(call inherit-product, device/samsung/milletwifi/full_milletwifi.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := SM-T530
-PRODUCT_DEVICE := matissewifi
-PRODUCT_NAME := cm_matissewifi
+PRODUCT_RELEASE_NAME := SM-T330
+PRODUCT_DEVICE := milletwifi
+PRODUCT_NAME := cm_milletwifi

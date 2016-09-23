@@ -12,16 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# inherit from common matisse-common
--include device/samsung/matisse-common/BoardConfigCommon.mk
+# inherit from common millet-common
+-include device/samsung/millet-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/samsung/matissewifi
+DEVICE_PATH := device/samsung/milletwifi
 
 # Audio
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_matissewifi_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_milletwifi_defconfig
 
 # Partitions
 TARGET_USERIMAGES_USE_F2FS := true
@@ -32,4 +32,4 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1866465280
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
--include vendor/samsung/matissewifi/BoardConfigVendor.mk
+-include vendor/samsung/milletwifi/BoardConfigVendor.mk
