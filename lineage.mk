@@ -21,4 +21,4 @@ $(call inherit-product, device/samsung/milletwifi/full_milletwifi.mk)
 # Release name
 PRODUCT_RELEASE_NAME := SM-T330
 PRODUCT_DEVICE := milletwifi
-PRODUCT_NAME := cm_milletwifi
+PRODUCT_NAME := lineage_milletwifi

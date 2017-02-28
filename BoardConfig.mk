@@ -21,7 +21,7 @@ DEVICE_PATH := device/samsung/milletwifi
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_milletwifi_defconfig
+TARGET_KERNEL_CONFIG := lineageos_milletwifi_defconfig
 
 # Partitions
 TARGET_USERIMAGES_USE_F2FS := true
